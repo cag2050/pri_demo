@@ -1,0 +1,24 @@
+{
+  "name": "pri_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pri test",
+    "start": "pri dev",
+    "docs": "pri docs",
+    "build": "pri build",
+    "bundle": "pri bundle",
+    "preview": "pri preview",
+    "analyse": "pri analyse",
+    "format": "tslint --fix './src/**/*.?(ts|tsx)' && prettier --write './src/**/*.?(ts|tsx)'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pri": "1.0.0-beta10"
+  },
+  "pri": {
+    "type": "project"
+  }
+}
