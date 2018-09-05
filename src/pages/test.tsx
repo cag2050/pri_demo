@@ -9,6 +9,6 @@ export default class Page extends React.PureComponent<Props, State> {
   public state = new State();
 
   public render() {
-    return <div>Page not found</div>;
+    return <div>test</div>;
   }
 }
